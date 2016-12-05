@@ -11,12 +11,19 @@ $(document).ready(function(){
       "color": "white"
    };
 
+   var time = 2000;
+
    $("div").css(cssObj)
            .click(function(){
-              $(this).fadeOut(2000, function(){
-                 alert("div is weg");
+              $(this).fadeOut(time, function(){
+                 //alert("div is weg");
               });
            });
+
+   $("button").click(function(){
+      $("div").fadeIn(time);
+   });
+   
 
    
 

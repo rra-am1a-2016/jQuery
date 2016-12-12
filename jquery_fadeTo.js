@@ -7,7 +7,7 @@
 // Gebruik hiervoor fadeTo
 // Als de zichtbaarheid onder 0 komt moet de div weer volledig 
 // Zichtbaar worden.
-
+window.history.forward(1);
 $(document).ready(function()
 {
    var opmaak = {
@@ -18,7 +18,7 @@ $(document).ready(function()
       "background-color": "orange",
       "color": "grey",
       "font-size": "3em",
-      "padding": "1em 0em 0em 1em"
+      "padding": "1em 0em 0em 1em" 
    };
 
    var opmaakBtn = {
@@ -40,7 +40,7 @@ $(document).ready(function()
          div.text("Hoi" + transparancy);
          if ( transparancy > 0)
          {
-            transparancy -= 0.1;
+            transparancy -= 0.2;
          }
          else
          {

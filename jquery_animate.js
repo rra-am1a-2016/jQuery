@@ -1,6 +1,5 @@
 $(document).ready(function(){
-   $("button").click(function(){
-
+   $("button").eq(0).click(function(){
       $(this).attr("disabled", "disabled");
       $(this).css("cursor", "not-allowed");
       $("div").animate({"left": "1200px",
@@ -12,7 +11,7 @@ $(document).ready(function(){
                         "border-color": "green"}, 4000, "easeOutBounce", function(){
          $(this).on("mouseenter", test);
          $(this).text("Mouse Enter me!");
-         $("button").removeAttr("disabled").css("cursor", "default");
+         $("button").eq(0).removeAttr("disabled").css("cursor", "default");
 
       });      
    });
@@ -41,4 +40,8 @@ $(document).ready(function(){
                                             })
                         })
    }
+
+   $("button").eq(1).click(function(){
+      $("div").stop(true, true);
+   });
 });

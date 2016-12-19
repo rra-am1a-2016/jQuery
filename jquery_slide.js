@@ -2,7 +2,7 @@ window.history.forward(1);
 $(document).ready(function(){
    //$("button").eq().css({"font-size": "4em"});
    $("button").eq(0).click(function(){
-      $("img").slideUp(2000);
+      $("img").slideUp(1000, "easeOutBounce");
    });
 
    $("button").eq(1).click(function(){

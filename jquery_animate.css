@@ -1,0 +1,30 @@
+body
+{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 2em;
+}
+
+button
+{
+   padding: 1.2em;
+   border-radius: 0.4em;
+   margin-bottom: 2em;
+}
+
+button:focus
+{
+   outline: 0;
+}
+
+div
+{
+   width: 200px;
+   height: 200px;
+   background-color: cornflowerblue;
+   border: 10px solid olive;
+   color: white;
+   padding: 1em;
+   border-radius: 0.5em;
+   position: relative;
+   left: 0px;
+}

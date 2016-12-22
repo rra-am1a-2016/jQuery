@@ -1,4 +1,13 @@
 $(document).ready(function(){
+
+   $("input").change(function(){
+      var inputText = $(this).val();
+      $("ol").html("<li>" + inputText + "</li>");
+      $(this).val("");
+
+   });
+
+
    $("button").click(function()
    {
       var altValue = $("img").attr("alt");

@@ -39,9 +39,7 @@ $(document).ready(function(){
 
    $("button").eq(1).click(function(){
 
-      var index1 = Math.floor(Math.random() * ictThings.length); 
-
-      
+      var index1 = Math.floor(Math.random() * ictThings.length);       
 
       var choice1 = $("input[type=radio][name=choiseI]:checked").val();
 

@@ -1,0 +1,26 @@
+span
+{
+   background-color: rgb(255,255,255);
+}
+
+li
+{
+   padding: 0.1em;
+   margin: 0.1em;
+}
+
+div
+{
+   display: inline-block;
+}
+
+button
+{
+   display: block;
+   margin-bottom: 2em;
+}
+
+img
+{
+   height: 460px;
+}

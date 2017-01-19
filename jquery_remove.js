@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-   var popArtistsDied = [{"name": "David Bowie", "photoName": "David Bowie123.jpg"},
+   var popArtistsDied = [{"name": "David Bowie", "photoName": "David Bowie23.jpg"},
                          {"name": "Prince", "photoName": "Prince.jpg"},
                          {"name": "George Michael", "photoName": "George Michael.jpg"},
                          {"name": "Leonard Cohen", "photoName": "Leonard Cohen.jpg"},
@@ -41,7 +41,7 @@ $(document).ready(function(){
             
             $("img").attr({"src": "./images/" + test.photoName, "alt": $(this).text()});
             // selector.attr({});
-         });
+         });  
           $("li:last span").mouseleave(function(){
             $(this).css({"background-color": "rgb(255,255,255)"});             
           });
